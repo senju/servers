@@ -1,0 +1,8 @@
+[debbase]
+ctrl
+
+[debbase:vars]
+http_proxy="http://ctrl:3128/"
+ansible_ssh_user=vagrant
+create_senju=true
+senju_conf_repo="/shared/conf"

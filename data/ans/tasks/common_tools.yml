@@ -1,0 +1,26 @@
+    - name: Install list of packages
+      apt: name={{item}}
+      with_items:
+        - autojump
+        - git
+        - lv
+        - zsh
+        - unzip
+        - vim-nox
+        - vim-migemo
+        - screen
+        - tmux
+        - convmv
+        - dos2unix
+        - nkf
+        - rsync
+        - wget
+        - curl
+        - lftp
+        - bash-completion
+        - fail2ban
+        - silversearcher-ag
+        - mlocate
+        - logrotate
+        - patch
+        - sysv-rc-conf

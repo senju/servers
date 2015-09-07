@@ -1,0 +1,10 @@
+# vim:set ft=ansible:
+
+- name: Install Squid3 
+  apt: name=squid3
+
+- name: squid.conf
+  copy: src=files/squid3.conf dest=/etc/squid3/squid.conf backup=yes
+
+- name: Restart squid3
+  service: name=squid3 state=restarted

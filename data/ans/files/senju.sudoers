@@ -1,0 +1,2 @@
+Defaults !tty_tickets
+senju   ALL = NOPASSWD:ALL
